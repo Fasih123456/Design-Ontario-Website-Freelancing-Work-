@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.hidden.menu {
+    display: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
   }
-  to {
-    transform: rotate(360deg);
+  .masthead .logo.item img {
+    margin-right: 1em;
   }
+  .masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+  }
+  .masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+  }
+  .masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+  }
+
+  .ui.vertical.stripe {
+    padding: 8em 0em;
+  }
+  .ui.vertical.stripe h3 {
+    font-size: 2em;
+  }
+  .ui.vertical.stripe .button + h3,
+  .ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+  }
+  .ui.vertical.stripe .floated.image {
+    clear: both;
+  }
+  .ui.vertical.stripe p {
+    font-size: 1.33em;
+  }
+  .ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+  }
+
+  .quote.stripe.segment {
+    padding: 0em;
+  }
+  .quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: 0px;
+  }
+
+  .footer.segment {
+    padding: 5em 0em;
+  }
+
+  .secondary.pointing.menu .toc.item {
+    display: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+      display: none !important;
+    }
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        
+      display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        
+      display: block;
+    }
+    .masthead.segment {
+      min-height: 350px;
+    }
+    .masthead h1.ui.header {
+      font-size: 2em;
+      margin-top: 1.5em;
+    }
+    .masthead h2 {
+      margin-top: 0.5em;
+      font-size: 1.5em;
+    }
+  }
+
+  @media only screen and (min-width: 1200px)
+ {
+    .ui.container{
+        width: 100vw;
+    }
 }
+
+#header{
+    background-color: rgb(230, 230, 230);
+    color:black;
+}
+
+.ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
+    color: black !important;
+}
+
+.ui.secondary.inverted.menu .active.item{
+    color: black !important;
+}
+
+.ui.inverted.header{
+    color: black;
+}
+
+.ui.primary.button, .ui.primary.buttons .button{
+    color: white;
+    background-color: black;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding: 0;
+}
+
+.ui.secondary.inverted.pointing.menu{
+    border-width: 0px;
+}
+
+.ui.secondary.pointing.menu{
+    border-width: 0px;
+}
+
+.ui.secondary.inverted.pointing.menu{
+    border-color: rgb(230, 230, 230);
+    border-left-width: 60px;
+    border-right-width: 60px;
+}
+
+#design-ontario-title{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.ui.inverted.header{
+    font-size: 80px;
+}
+
+.masthead h2{
+    font-family: 'Montserrat', sans-serif;
+    color: black !important; 
+    font-size: 20px;
+    margin: 40px;
+    font-weight: 600;
+}
+
+.masthead h1.ui.header{
+    font-size: 70px;
+}
+
+.ui.large.image, .ui.large.images .image, .ui.large.images img, .ui.large.images svg{
+    width: 100vw;
+}
+
+.ui.vertical.stripe{
+    padding: 0px 0px;
+}
+
+.h1, h1{
+    font-size: 56px;
+}
+
+.ui.grid>*{
+    padding-left: 35vw;
+    padding-right: 35vw;
+}
+
+#middle-section{
+    padding-left: 220px;
+    padding-right: 220px;
+    padding: 40px 0px;
+    background-color: rgb(250, 250, 250);
+}
+
+#middle-section-title{
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.ui.celled.grid>.row{
+    border: 0px !important;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 75vw;
+}
+
+#middle-section-content{
+    font-size: 14px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.content-heading{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.content-paragraph{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black !important; 
+}
+
