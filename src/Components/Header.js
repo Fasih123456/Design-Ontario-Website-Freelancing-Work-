@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Container, Nav} from 'react-bootstrap';
+
 import '../App.css';
 
 const Header = () => {
@@ -99,49 +99,52 @@ const Header = () => {
     </div>
   </div>
 
-  <div class="ui vertical stripe segment">
+
+
+  <div class="pusher">
+  <div id='header' class="ui inverted vertical masthead center aligned segment">
+
     <div class="ui text container">
-      <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-      <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-      <a class="ui large button">Read More</a>
-      <h4 class="ui horizontal header divider">
-        <a href="#">Case Studies</a>
-      </h4>
-      <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-      <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-      <a class="ui large button">I'm Still Quite Interested</a>
+      <h1 class="ui inverted header" id='upgrade-house-heading'>
+        Ready to upgrade your house with our help?
+      </h1>
+      <div class="ui small primary button" id='contact-us-button'>Contact us<i class="right arrow icon"></i></div>
     </div>
+
   </div>
+
+
 
 
   <div class="ui inverted vertical footer segment">
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
         <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
+          <h4 class="ui inverted header footer-heading">About</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
+            <a href="#" class="item footer-content">Sitemap</a>
+            <a href="#" class="item footer-content">Contact Us</a>
+            <a href="#" class="item footer-content">Religious Ceremonies</a>
+            <a href="#" class="item footer-content">Gazebo Plans</a>
           </div>
         </div>
         <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
+          <h4 class="ui inverted header footer-heading">Services</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
+            <a href="#" class="item footer-content">Banana Pre-Order</a>
+            <a href="#" class="item footer-content">DNA FAQ</a>
+            <a href="#" class="item footer-content">How To Access</a>
+            <a href="#" class="item footer-content">Favorite X-Men</a>
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
+          <h4 class="ui inverted header footer-heading">Footer Header</h4>
           <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
     );
