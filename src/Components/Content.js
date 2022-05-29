@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../App.css';
 
-const Header = () => {
+const Content = () => {
 
     return (
           
@@ -56,10 +56,10 @@ const Header = () => {
 
     <div class="ui text container">
       <h1 class="ui inverted header" id='main-heading'>
-        Qualified Potato for your house drawings
+        Qualified Civil Engineer for your Drawings
       </h1>
-      <h2 id='secondary-heading'>Do whatever you want when you want to.placeholder</h2>
-      <div class="ui huge primary button">Get Started placeholder<i class="right arrow icon"></i></div>
+      <h2 id='secondary-heading'>Do whatever you want when you want to</h2>
+      <div class="ui huge primary button">Get Started<i class="right arrow icon"></i></div>
     </div>
 
   </div>
@@ -82,18 +82,19 @@ const Header = () => {
       <h1 className='large center' id='middle-section-title'>We are the experts at:</h1>
       <div class="center aligned row" id='middle-section-content'>
         <div class="four wide column expertise" id='one'>
-          <p class='content-heading'>DECK DRAWINGS</p>
-          <p class='content-paragraph'>Brenda never wanted to be famous. While most of her friends dreamed about being famous</p>
-          <div class="ui small primary button">Get Started placeholder<i class="right arrow icon"></i></div>
+          <p class='content-heading'>Deck Drawings</p>
+          <p class='content-paragraph'>Design based on local building codes and provide you with calculation needed for permit drawings.</p>
+          <div class="ui small primary button">Get Started<i class="right arrow icon"></i></div>
           </div>
-        <div class="four wide column expertise">          <p class='content-heading'>DECK DRAWINGS</p>
-          <p class='content-paragraph'>Brenda never wanted to be famous. While most of her friends dreamed about being famous</p>
+        <div class="four wide column expertise">          
+          <p class='content-heading'>Floor Plan, Framing and Permit Drawings</p>
+          <p class='content-paragraph'> Specialized in 2D AutoCAD DRAFTING AND PRODUCTION of construction drawing in accordance with Ontario and Canadian building codes.</p>
           <div class="ui small primary button">Get Started placeholder<i class="right arrow icon"></i></div></div>
-        <div class="four wide column expertise">          <p class='content-heading'>DECK DRAWINGS</p>
-          <p class='content-paragraph'>Brenda never wanted to be famous. While most of her friends dreamed about being famous</p>
+        <div class="four wide column expertise">          <p class='content-heading'>Architectural Rendering</p>
+          <p class='content-paragraph'>If you need a render done for proof of concept or final presentation this is the place</p>
           <div class="ui small primary button">Get Started placeholder<i class="right arrow icon"></i></div></div>
-        <div class="four wide column expertise">          <p class='content-heading'>DECK DRAWINGS</p>
-          <p class='content-paragraph'>Brenda never wanted to be famous. While most of her friends dreamed about being famous</p>
+        <div class="four wide column expertise">          <p class='content-heading'>City Permit Drawings for Interior Renovations</p>
+          <p class='content-paragraph'>Prepare you a full set of interior renovation permit drawings, including architectural, structural, and other drawings that will minimize delays and help you stay on time and on budget with your new project.</p>
           <div class="ui small primary button">Get Started placeholder<i class="right arrow icon"></i></div></div>
       </div>
     </div>
@@ -150,4 +151,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Content;
