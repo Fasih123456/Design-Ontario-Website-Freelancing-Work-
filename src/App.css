@@ -84,6 +84,20 @@
       margin-top: 0.5em;
       font-size: 1.5em;
     }
+
+    .content-paragraph{
+      display: none;
+  }
+
+  #middle-section-title{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    align-items: center;
+    padding-right: 0px;
+  }
+
+
   }
 
   @media only screen and (min-width: 1200px)
@@ -91,6 +105,10 @@
     .ui.container{
         width: 100vw;
     }
+
+    
+
+
 }
 
 #header{
@@ -184,8 +202,12 @@
 }
 
 #middle-section-title{
+  width: 100vw;
+  text-align: center;
     padding-bottom: 40px;
     align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .ui.celled.grid>.row{
@@ -196,9 +218,9 @@
 }
 
 #middle-section-content{
+  
     font-size: 14px;
-    padding-left: 180px;
-    padding-right: 180px;
+    align-items: center;
 }
 
 .content-heading{
