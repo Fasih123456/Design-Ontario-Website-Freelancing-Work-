@@ -2,8 +2,6 @@ import React from 'react';
 import Home from './Home.js';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Work from './Work';
-import PageOne from './PageOne';
-import Header from './Header';
 import Contact from './Contact';
 import costCalculations from './costCalculations';
 
