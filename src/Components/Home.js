@@ -1,68 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Work from './Work';
-import PageOne from './PageOne';
 import Header from './Header';
-import Contact from './Contact';
-import costCalculations from './costCalculations';
-import Navigation from './Navigation';
 
 import '../App.css';
 
 const Home = () => {
-
-
-
-  const PageTwo = () => {
-    return (
-      <div class='active item'>
-        PageTwo
-        <Link to="/">navigate to page Two</Link>
-      </div>
-    )
-  }
-
-  const HomeURL = () => {
-    return (
-      <div className='active item'>
-        <Link to="/">Home</Link>
-      </div>
-    )
-  }
-
-
-
   return (          
   <div>
-
-
-
-
-    
     <div class="pusher">
-      <div id='header' class="ui inverted vertical masthead center aligned segment">
-
-        <div class="ui container">
-          <div class="ui large secondary inverted pointing menu">
-            <a class="toc item">
-              <i class="sidebar icon"></i>
-            </a>
-            <Navigation />
-            <div class="right item">
-              <h1 id='design-ontario-title'>Design Ontario</h1>
-          </div>
-        </div>
-      </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header" id='main-heading'>
-        Qualified Civil Engineer for your Drawings
-      </h1>
-      <h2 id='secondary-heading'>Do whatever you want when you want to</h2>
-      <div class="ui huge primary button">Get Started<i class="right arrow icon"></i></div>
-    </div>
-
-  </div>
+      <Header title='Qualified Civil Engineer for your Drawings' subtitle='Do whatever you want when you want to'/>
 
   <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable">

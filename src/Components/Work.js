@@ -5,7 +5,7 @@ import Header from './Header';
 const Work = () => {    
     return (
         <div class='active item'>
-            <Header />
+            <Header title='work' subtitle='work sub'/>
             Work page
         </div>
       )

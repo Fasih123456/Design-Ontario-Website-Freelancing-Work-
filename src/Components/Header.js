@@ -3,7 +3,7 @@ import { Route, BrowserRouter, Link } from 'react-router-dom';
 import PageOne from './PageOne';
 import Navigation from './Navigation';
 
-const Header = () =>{
+const Header = (props) =>{
     const PageTwo = () => {
         return (
           <div>
@@ -56,6 +56,14 @@ const Header = () =>{
           </div>
         </div>
       </div>
+
+      <div class="ui text container">
+      <h1 class="ui inverted header" id='main-heading'>
+        {props.title}
+      </h1>
+      <h2 id='secondary-heading'>{props.subtitle}</h2>
+      <div class="ui huge primary button">Get Started<i class="right arrow icon"></i></div>
+    </div>
         
     </div>
     </div>
