@@ -3,15 +3,6 @@ import { Route, BrowserRouter, Link } from 'react-router-dom';
 import Navigation from './Navigation';
 
 const Header = (props) =>{
-    const PageTwo = () => {
-        return (
-          <div>
-            PageTwo
-            <Link to="/">navigate to page Two</Link>
-          </div>
-        )
-      }
-
     return (
     <div>
         <div class="ui large top fixed hidden menu">
@@ -69,5 +60,7 @@ const Header = (props) =>{
     </div>
     );
 }
+
+//
 
 export default Header;
