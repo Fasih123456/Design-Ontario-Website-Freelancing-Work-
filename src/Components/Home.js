@@ -8,7 +8,7 @@ const Home = () => {
   return (          
   <div>
     <div class="pusher">
-      <Header title='Qualified Civil Engineer for your Drawings' subtitle='Do whatever you want when you want to'/>
+      <Header title='Qualified Civil Engineers for your Drawings' subtitle='Do whatever you want when you want to'/>
 
   <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable">
@@ -56,6 +56,7 @@ const Home = () => {
         Ready to upgrade your house with our help?
       </h1>
       <div class="ui small primary button" id='contact-us-button'>Contact us<i class="right arrow icon"></i></div>
+      <div class="ui small primary button" id='contact-us-button'>Get a Qoute<i class="right arrow icon"></i></div>
     </div>
 
   </div>
