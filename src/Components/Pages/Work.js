@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
-import Slideshow from './SlideShow';
+import Header from '../Header';
+import Footer from '../Footer';
+import Slideshow from '../SlideShow';
 import 'react-slideshow-image/dist/styles.css'
 
 
-import '../App.css';
+import '../../App.css';
 const Work = () => {    
     return (
         <div>
