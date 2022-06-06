@@ -52,7 +52,7 @@ const Header = (props) =>{
         {props.title}
       </h1>
       <h2 id='secondary-heading'>{props.subtitle}</h2>
-      <div class="ui huge primary button">Get Started<i class="right arrow icon"></i></div>
+      
     </div>
         
     </div>
