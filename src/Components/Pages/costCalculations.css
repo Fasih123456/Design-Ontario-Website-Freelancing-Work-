@@ -1,0 +1,13 @@
+.ui.card{
+    text-decoration: none;
+}
+
+#header{
+    margin-bottom: 20px;
+    height: 25vh;
+}
+
+.ui.inverted.vertical.footer.segment{
+    margin-top: 20px;
+}
+
