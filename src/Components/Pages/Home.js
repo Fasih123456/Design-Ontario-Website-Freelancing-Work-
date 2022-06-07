@@ -33,13 +33,13 @@ const Home = () => {
           <div class="ui small primary button">Get Started<i class="right arrow icon"></i></div>
           </div>
         <div class="four wide column expertise">          
-          <p class='content-heading'>Floor Plan, Framing and Permit Drawings</p>
+          <p class='content-heading'>Floor Plan Framing and Permit Drawings</p>
           <p class='content-paragraph'> Specialized in 2D AutoCAD DRAFTING AND PRODUCTION of construction drawing in accordance with Ontario and Canadian building codes.</p>
           <div class="ui small primary button">Get Started<i class="right arrow icon"></i></div></div>
         <div class="four wide column expertise">          <p class='content-heading'>Architectural Rendering</p>
           <p class='content-paragraph'>If you need a render done for proof of concept or final presentation this is the place</p>
           <div class="ui small primary button">Get Started<i class="right arrow icon"></i></div></div>
-        <div class="four wide column expertise">          <p class='content-heading'>City Permit Drawings for Interior Renovations</p>
+        <div class="four wide column expertise">          <p class='content-heading'>Interior Renovations</p>
           <p class='content-paragraph'>Prepare you a full set of interior renovation permit drawings, including architectural, structural, and other drawings that will help you stay on time.</p>
           <div class="ui small primary button">Get Started<i class="right arrow icon"></i></div></div>
       </div>
