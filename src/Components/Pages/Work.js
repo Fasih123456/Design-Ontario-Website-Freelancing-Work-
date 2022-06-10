@@ -7,6 +7,7 @@ import 'react-slideshow-image/dist/styles.css'
 
 
 import '../../App.css';
+import './Work.css';
 const Work = () => {    
     return (
         <div>
@@ -15,9 +16,9 @@ const Work = () => {
         subtitle='Design Ontario can create drafts and drawings for all your construction needs.' 
         />
         <div id='work-page-body'>
-            <div class="ui two column doubling stackable grid container work-page-body-containers">
-                <div class="column">
-                <Slideshow />
+            <div class="ui one column doubling stackable grid container work-page-body-containers" id='deck-main'>
+                <div class="column" id='deck-section'>
+                <Slideshow type='Deck' id='deck-slide' />
                 </div>
                 <div class="column">
                     <h2>Deck Drawings</h2>
@@ -33,7 +34,10 @@ const Work = () => {
                 </div>
             </div>
 
-            <div class="ui two column doubling stackable grid container">
+            <div class="ui one column doubling stackable grid container">
+            <div class="column">
+                    <Slideshow type='Floor' />
+                </div>
                 <div class="column">
                 <h2>Floor Plan Framing and Permit Drawings </h2>
                     <p>
@@ -46,14 +50,12 @@ const Work = () => {
                         We are  drafting, your one-stop source for all your drafting and CAD needs. We do architectural, working, and presentation drawings for any type of industry or trade.
                     </p>
                 </div>
-                <div class="column">
-                <Slideshow />
-                </div>
+ 
 
             </div>
-            <div class="ui two column doubling stackable grid container">
-            <div class="column">
-                <Slideshow />
+            <div class="ui one column doubling stackable grid container">
+                <div class="column">
+                    <Slideshow type='Architect' />
                 </div>
                 <div class="column">
                 <h2>Architectural Rendering</h2>
@@ -71,7 +73,10 @@ const Work = () => {
 
 
             </div>
-            <div class="ui two column doubling stackable grid container">
+            <div class="ui one column doubling stackable grid container">
+            <div class="column">
+                    <Slideshow type='Interior' />
+                </div>
                 <div class="column">
                 <h2>Interior Renovations </h2>
                     <p>
@@ -84,9 +89,7 @@ const Work = () => {
                         We are  drafting, your one-stop source for all your drafting and CAD needs. We do architectural, working, and presentation drawings for any type of industry or trade.
                     </p>
                 </div>
-                <div class="column">
-                <Slideshow />
-                </div>
+
 
             </div>
         </div>
