@@ -256,16 +256,14 @@
     font-weight: 600;
 }
 
-.ui.text.container{
-  padding-bottom: 400px;
-}
+
 
 .each-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 550px;
+  height: 1150px;
 }
 
 .each-slide span {

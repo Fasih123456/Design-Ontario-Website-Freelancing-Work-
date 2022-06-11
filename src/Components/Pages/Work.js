@@ -16,8 +16,8 @@ const Work = () => {
         subtitle='Design Ontario can create drafts and drawings for all your construction needs.' 
         />
         <div id='work-page-body'>
-            <div class="ui one column doubling stackable grid container work-page-body-containers" id='deck-main'>
-                <div class="column" id='deck-section'>
+            <div class="ui one column doubling stackable grid container "  id='deck-main'>
+                <div class="column" id='deck-section' >
                 <Slideshow type='Deck' id='deck-slide' />
                 </div>
                 <div class="column">
@@ -74,7 +74,7 @@ const Work = () => {
 
             </div>
             <div class="ui one column doubling stackable grid container">
-            <div class="column">
+                <div class="column" >
                     <Slideshow type='Interior' />
                 </div>
                 <div class="column">
