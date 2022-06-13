@@ -2,8 +2,12 @@
     display: none;
   }
 
+  #header2{
+    min-height: 200px;
+  }
+
   .masthead.segment {
-    min-height: 700px;
+    min-height: 500px;
     padding: 1em 0em;
   }
   .masthead .logo.item img {

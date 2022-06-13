@@ -9,7 +9,7 @@ const Home = () => {
   return (          
   <div>
     <div class="pusher">
-      <Header title='Qualified Civil Engineers for your Drawings' subtitle='Do whatever you want when you want to'/>
+      <Header title='Qualified Civil Engineers for your Drawings' />
 
   <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable">

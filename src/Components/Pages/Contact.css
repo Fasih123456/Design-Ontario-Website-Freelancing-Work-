@@ -6,10 +6,13 @@
   }
   
   #contact-page-primary-component{
-      margin-top: 20px;
+    padding-left: 9vw;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   
-  #header{
-    height: 25vh;
+ 
+
+  #contact-page-primary-component{
+    height: 10vh;
   }
