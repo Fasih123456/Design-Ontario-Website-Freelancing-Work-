@@ -38,6 +38,7 @@ class Navigation extends React.Component{
                 document.getElementById('page3').classList.remove('active');
                 document.getElementById('page4').classList.remove('active');
                 break;
+            
             default:
                 document.getElementById('page1').classList.add('active');
         }

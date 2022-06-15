@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Footer from '../Footer';
-import Header2 from "../Header2";
+
 
 import CardExampleLinkCard from '../CardExampleLinkCard';
 import TableExampleStructured from "../TableExampleStructured";

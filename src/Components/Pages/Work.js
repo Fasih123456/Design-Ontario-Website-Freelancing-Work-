@@ -33,6 +33,7 @@ const Work = () => {
                     </p>
                 </div>
             </div>
+            
 
             <div class="ui one column doubling stackable grid container">
             <div class="column">

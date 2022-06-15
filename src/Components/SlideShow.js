@@ -2,6 +2,7 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { Zoom } from 'react-slideshow-image';
+import './SlideShow.css';
 
 const slideImages = [
   {
@@ -151,9 +152,9 @@ function SlideShowFloor(){
   return (<div className="slide-container">
   <Slide>
    {FloorImage.map((slideImage, index)=> (
-      <div className="each-slide" key={index}>
+      <div className="each-slide" id='lifestyle' key={index}>
         <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-
+        
         </div>
       </div>
     ))} 
@@ -164,9 +165,10 @@ function SlideShowFloor(){
 function SlideShowInterior() {
   return (<div className="slide-container">
   <Slide>
+
    {Interior.map((slideImage, index)=> (
       <div className="each-slide" key={index}>
-        <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+        <div  style={{'backgroundImage': `url(${slideImage.url})`}}>
         </div>
       </div>
     ))} 
@@ -178,7 +180,7 @@ function SlideShowArchitect() {
   return (<div className="slide-container">
   <Slide>
    {ArchitectImages.map((slideImage, index)=> (
-      <div className="each-slide" key={index}>
+      <div className="each-slide" id='lifestyle' key={index}>
         <div style={{'backgroundImage': `url(${slideImage.url})`}}>
 
         </div>
@@ -192,7 +194,7 @@ function SlideShowDeck() {
   return (<div className="slide-container">
   <Slide>
    {DeckImage.map((slideImage, index)=> (
-      <div className="each-slide" key={index}>
+      <div className="each-slide" id='lifestyle' key={index}>
         <div style={{'backgroundImage': `url(${slideImage.url})`}}>
         </div>
       </div>
