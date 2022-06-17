@@ -56,8 +56,8 @@ const Home = () => {
       <h1 class="ui inverted header" id='upgrade-house-heading'>
         Ready to upgrade your house with our help?
       </h1>
-      <div class="ui small primary button" id='contact-us-button'><Link to="/Contact" class='no-link-style'>Contact Us</Link><i class="right arrow icon"></i></div>
-      <div class="ui small primary button" id='contact-us-button'><Link to="/Cost" class='no-link-style'>Get a Qoute</Link><i class="right arrow icon"></i></div>
+      <Link to="/Contact" class='no-link-style'><div class="ui small primary button" id='contact-us-button'>Contact Us<i class="right arrow icon"></i></div></Link>
+      <Link to="/Cost" class='no-link-style'><div class="ui small primary button" id='contact-us-button'>Get a Qoute<i class="right arrow icon"></i></div></Link>
     </div>
 
   </div>
