@@ -8,23 +8,25 @@ class Navigation extends React.Component{
 
     componentDidMount(){
         const currentLocation = window.location.href;
+        const BASEURL = 'http://localhost:3000';
+
         switch(currentLocation){
             
-            case 'http://localhost:3000/Contact':
+            case `${BASEURL}/Contact`:
                 document.getElementById('page3').classList.add('active');
 
                 document.getElementById('page1').classList.remove('active');
                 document.getElementById('page2').classList.remove('active');
                 document.getElementById('page4').classList.remove('active');
                 break;
-            case 'http://localhost:3000/Work':
+            case `${BASEURL}/Work`:
                 document.getElementById('page2').classList.add('active');
 
                 document.getElementById('page1').classList.remove('active');
                 document.getElementById('page3').classList.remove('active');
                 document.getElementById('page4').classList.remove('active');
                 break;
-            case 'http://localhost:3000/Cost':
+            case '`${BASEURL}/Cost':
                 document.getElementById('page4').classList.add('active');
     
                 document.getElementById('page1').classList.remove('active');

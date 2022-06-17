@@ -1,5 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
+import {Link} from 'react-router-dom';
+
 
 const Header = (props) =>{
     return (
@@ -41,7 +43,7 @@ const Header = (props) =>{
             </a>
             <Navigation />
             <div class="right item">
-              <h1 id='design-ontario-title'>Design Ontario</h1>
+              <Link to='/' className='no-link-style'><h1 id='design-ontario-title'>Design Ontario</h1></Link>
           </div>
         </div>
       </div>

@@ -42,10 +42,7 @@ class FormExampleFieldControl extends Component {
           label='About'
           placeholder='Tell us more about you...'
         />
-        <Form.Field
-          control={Checkbox}
-          label='I agree to the Terms and Conditions'
-        />
+
         <Form.Field control={Button}>Submit</Form.Field>
       </Form>
 
