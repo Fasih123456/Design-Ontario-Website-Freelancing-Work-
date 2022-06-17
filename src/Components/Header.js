@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route, BrowserRouter, Link } from 'react-router-dom';
 import Navigation from './Navigation';
 
 const Header = (props) =>{

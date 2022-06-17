@@ -4,16 +4,9 @@ import {
   Checkbox,
   Form,
   Input,
-  Radio,
-  Select,
   TextArea,
 } from 'semantic-ui-react'
 
-const options = [
-  { key: 'm', text: 'Male', value: 'male' },
-  { key: 'f', text: 'Female', value: 'female' },
-  { key: 'o', text: 'Other', value: 'other' },
-]
 
 class FormExampleFieldControl extends Component {
   state = {}
@@ -34,7 +27,6 @@ class FormExampleFieldControl extends Component {
           <Form.Field
             control={Input}
             label='Middle Name'
-            options={options}
             placeholder='Middle Name'
           />
           <Form.Field

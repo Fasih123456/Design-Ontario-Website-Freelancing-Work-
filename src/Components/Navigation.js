@@ -11,7 +11,6 @@ class Navigation extends React.Component{
         switch(currentLocation){
             
             case 'http://localhost:3000/Contact':
-                console.log(1);
                 document.getElementById('page3').classList.add('active');
 
                 document.getElementById('page1').classList.remove('active');
@@ -19,7 +18,6 @@ class Navigation extends React.Component{
                 document.getElementById('page4').classList.remove('active');
                 break;
             case 'http://localhost:3000/Work':
-                console.log(2);
                 document.getElementById('page2').classList.add('active');
 
                 document.getElementById('page1').classList.remove('active');
@@ -27,7 +25,6 @@ class Navigation extends React.Component{
                 document.getElementById('page4').classList.remove('active');
                 break;
             case 'http://localhost:3000/Cost':
-                console.log(3);
                 document.getElementById('page4').classList.add('active');
     
                 document.getElementById('page1').classList.remove('active');
@@ -35,7 +32,6 @@ class Navigation extends React.Component{
                 document.getElementById('page3').classList.remove('active');
                 break;
             case 'http://localhost:3000/':
-                console.log(4);
                 document.getElementById('page1').classList.add('active');
     
                 document.getElementById('page2').classList.remove('active');

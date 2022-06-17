@@ -1,8 +1,6 @@
 import Header from "../Header";
 import Footer from '../Footer';
 
-
-import CardExampleLinkCard from '../CardExampleLinkCard';
 import TableExampleStructured from "../TableExampleStructured";
 
 import './costCalculations.css';
