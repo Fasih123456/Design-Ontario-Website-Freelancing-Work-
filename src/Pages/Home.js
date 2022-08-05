@@ -5,6 +5,10 @@ import {Link} from 'react-router-dom';
 import './css/App.css';
 import './css/Home.css';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 const Home = () => {
   return (          
   <div>
@@ -24,26 +28,50 @@ const Home = () => {
   </div>
 
 
+
   <div class="vertical stripe quote segment" id='middle-section'>
     <div class="ui equal width stackable internally grid">
       <h1 className='large center' id='middle-section-title'>We are the experts at:</h1>
-      <div class="center aligned row" id='middle-section-content'>
-        <div class="four wide column expertise" id='one'>
-          <p class='content-heading'>Deck Drawings</p>
-          <p class='content-paragraph'>Design based on local building codes and provide you with calculation needed for permit drawings.</p>
-          <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div>
-          </div>
-        <div class="four wide column expertise">          
-          <p class='content-heading'>Floor Plan Framing and Permit Drawings</p>
-          <p class='content-paragraph'> Specialized in 2D AutoCAD DRAFTING AND PRODUCTION of construction drawing in accordance with Ontario and Canadian building codes.</p>
-          <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div></div>
-        <div class="four wide column expertise">          <p class='content-heading'>Architectural Rendering</p>
-          <p class='content-paragraph'>If you need a render done for proof of concept or final presentation this is the place</p>
-          <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div></div>
-        <div class="four wide column expertise">          <p class='content-heading'>Interior Renovations</p>
-          <p class='content-paragraph'>Prepare you a full set of interior renovation permit drawings, including architectural, structural, and other drawings that will help you stay on time.</p>
-          <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div></div>
-      </div>
+    
+      <Container >
+      <Row style={{paddingBottom: "10px"}}>
+        <Col><p class='content-heading'>Deck Drawings</p></Col>
+        <Col><p class='content-heading'>Floor Plan Framing and Permit Drawings</p></Col>
+        <Col> <p class='content-heading'>Architectural Rendering</p></Col>
+        <Col>
+        <p class='content-heading'>Interior Renovations</p>
+          </Col>
+      </Row>
+      <Row>
+        <Col>          <p class='content-paragraph'>Design based on local building codes and provide you with calculation needed for permit drawings.</p>
+          
+          </Col>
+        <Col>
+        <p class='content-paragraph'> Specialized in 2D AutoCAD DRAFTING AND PRODUCTION of construction drawing in accordance with Ontario and Canadian building codes.</p>
+         
+        
+        </Col>
+        <Col>          <p class='content-paragraph'>If you need a render done for proof of concept or final presentation this is the place</p>
+          </Col>
+        <Col><p class='content-paragraph'>Prepare you a full set of interior renovation permit drawings, including architectural, structural, and other drawings that will help you stay on time.</p>
+          </Col>
+
+      </Row>
+      <Row style={{paddingTop: "10px"}}>
+        <Col>
+        <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div>s
+        </Col>
+        <Col>
+        <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div>
+        </Col>
+        <Col>
+        <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div>
+        </Col>
+        <Col>
+        <div class="ui small primary button"><Link to="/Work" class='no-link-style'>Get Started</Link><i class="right arrow icon"></i></div>
+        </Col>
+      </Row>
+    </Container>
     </div>
   </div>
 

@@ -43,7 +43,7 @@ const Header = (props) =>{
             </a>
             <Navigation />
             <div class="right item">
-              <Link to='/' className='no-link-style'><h1 id='design-ontario-title'>Design Ontario</h1></Link>
+              <Link to='/' className='no-link-style'><h1 id='design-ontario-title'>Engineering Plans</h1></Link>
           </div>
         </div>
       </div>

@@ -6,3 +6,9 @@
     text-decoration: none;
     color : white;
 }
+
+.container{
+    padding-left: 2.5vw !important;
+    padding-right: 2.5vw !important;
+    padding-bottom: 100px;
+}

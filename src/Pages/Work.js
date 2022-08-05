@@ -11,8 +11,8 @@ const Work = () => {
     return (
         <div>
         <Header 
-        title='About Design Ontario' 
-        subtitle='Design Ontario can create drafts and drawings for all your construction needs.' 
+        title='About Engineering Plans' 
+        subtitle='Engineering Plans can create drafts and drawings for all your construction needs.' 
         />
         <div id='work-page-body'>
             <div class="ui one column doubling stackable grid container "  id='deck-main'>
