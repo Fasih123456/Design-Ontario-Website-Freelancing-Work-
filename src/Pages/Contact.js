@@ -16,7 +16,7 @@ const Contact = () => {
             <div class="ui three column doubling stackable grid container" id="contact-page-primary-component">
                 <div class="column">
                 <p>Address:</p>
-                <p>Unit 503, 65 times avenue, Markham, ON</p>
+                <p>235 south end street, OakVallie, Hudson Bay. </p>
                 </div>
                 <div class="column">
                 <p>Phone:</p>
