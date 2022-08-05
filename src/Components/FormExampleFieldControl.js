@@ -6,6 +6,7 @@ import {
   Input,
   TextArea,
 } from 'semantic-ui-react'
+import Footer from './Footer'
 
 
 class FormExampleFieldControl extends Component {
@@ -23,12 +24,9 @@ class FormExampleFieldControl extends Component {
             control={Input}
             label='First name'
             placeholder='First name'
+            required
           />
-          <Form.Field
-            control={Input}
-            label='Middle Name'
-            placeholder='Middle Name'
-          />
+
           <Form.Field
             control={Input}
             label='Last name'
@@ -36,6 +34,23 @@ class FormExampleFieldControl extends Component {
           />
 
         </Form.Group>
+
+        <Form.Group widths="equal">
+
+        <Form.Field 
+          control={Input}
+          label='Email'
+          placeholder='sabih@hotmail.com'
+          required
+        />
+
+        <Form.Field 
+          control={Input}
+          label='Phone Number'
+          placeholder='+15147937039'
+        /> 
+        </Form.Group>
+
         
         <Form.Field
           control={TextArea}
