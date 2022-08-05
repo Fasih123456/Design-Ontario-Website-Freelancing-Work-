@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../Header';
-import Footer from '../Footer';
-import Slideshow from '../SlideShow';
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
+import Slideshow from '../Components/SlideShow'
 import 'react-slideshow-image/dist/styles.css'
 
 
-import '../../App.css';
-import './Work.css';
+import './css/App.css';
+import './css/Home.css';
 const Work = () => {    
     return (
         <div>

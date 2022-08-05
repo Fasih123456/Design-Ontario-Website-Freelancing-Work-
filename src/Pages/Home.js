@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../Header';
-import Footer from '../Footer';
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 import {Link} from 'react-router-dom';
-import '../../App.css';
-import './Home.css';
+import './css/App.css';
+import './css/Home.css';
 
 const Home = () => {
   return (          

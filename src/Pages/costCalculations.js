@@ -1,9 +1,9 @@
-import Header from "../Header";
-import Footer from '../Footer';
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 
-import TableExampleStructured from "../TableExampleStructured";
+import TableExampleStructured from '../Components/TableExampleStructured';
 
-import './costCalculations.css';
+import './css/costCalculations.css';
 
 const costCalculations = () =>{
     return (

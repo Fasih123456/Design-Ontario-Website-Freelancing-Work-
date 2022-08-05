@@ -1,9 +1,11 @@
 import React from 'react';
-import Home from './Pages/Home.js';
+
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Work from './Pages/Work';
-import Contact from './Pages/Contact';
-import costCalculations from './Pages/costCalculations';
+import Work from './Work';
+import Contact from './Contact';
+import costCalculations from './costCalculations';
+
+import Home from './Home';
 
 
 const App = () => {
