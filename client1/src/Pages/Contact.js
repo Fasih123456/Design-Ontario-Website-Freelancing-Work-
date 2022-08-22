@@ -2,7 +2,7 @@ import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import React, {useState} from 'react';
 import FormExampleFieldControl from '../Components/FormExampleFieldControl';
-
+import axios from 'axios';
 import './css/contact.css';
 
 
@@ -29,6 +29,9 @@ const Contact = () => {
         })
 
     }
+
+    
+
     return (
         <div class='active item'>
             <div id='contact-page-header'>

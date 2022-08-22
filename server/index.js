@@ -8,10 +8,14 @@ const authRoutes = require('./routes/auth');
 const mongoose = require('mongoose');
 
 const Contact = require("./models/contact");
+const dotenv = require("dotenv")
 
+dotenv.config();
 
 
 connection()
+
+
 
 app.use(express.json())
 app.use(cors())
@@ -31,9 +35,23 @@ app.post('/api/contact', async (req,res)=> {
     }
 })
 
-app.get('/api/contact', (req,res)=> {
-    res.send("hi")
+
+app.get('/api', (req, res) => {
+    var MongoClient = require('mongodb').MongoClient;
+    var url = "mongodb+srv://fasih123:nEFEDA4eBRPth87w@cluster0.5udsnyb.mongodb.net/test";
+    
+    MongoClient.connect(url, function(err, db) {
+      if (err) throw err;
+      var dbo = db.db("test");
+      dbo.collection("contact-data").find().toArray(function(err, result) {
+        if (err) throw err;
+        res.send(result)
+        db.close();
+      });
+    });
 })
+
+
 
 app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes);
