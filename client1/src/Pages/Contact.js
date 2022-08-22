@@ -1,11 +1,34 @@
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
-import React from 'react';
+import React, {useState} from 'react';
 import FormExampleFieldControl from '../Components/FormExampleFieldControl';
 
 import './css/contact.css';
 
+
 const Contact = () => {
+    const [name, setName] = useState('');
+    const [email,setEmail] = useState('');
+    const [password, setPassword] = useState('')
+
+    async function registerUser(event){
+        event.preventDefault();
+        fetch('http://localhost:8080/api/contact', {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name,
+                email,
+                password
+            }),
+        }).then((response) => {
+            const data = response.json();
+            console.log(data)
+        })
+
+    }
     return (
         <div class='active item'>
             <div id='contact-page-header'>
@@ -28,7 +51,27 @@ const Contact = () => {
                 </div>
             </div>
             <div id='contact-page-secondary-component'>
-            <FormExampleFieldControl />
+            <form onSubmit={registerUser}>
+                <input 
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                type="text"
+                placeholder="name"
+                />
+                <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                type="email"
+                placeholder="email"
+                />
+                <input 
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                type="password"
+                />
+                            <input type="submit" value="Register" />
+            </form>
+
             </div>
             <Footer />
         </div>
