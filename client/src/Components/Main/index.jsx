@@ -24,7 +24,7 @@ function Main(){
 
 	const getContactInformation = async () => {
 
-		await axios.get('https://engineers-canada.herokuapp.com/api')
+		await axios.get('http://localhost:8080/api/contacts')
 		.then((response) => {
 			const data = response.data;
 			this.setState({contacts: data})

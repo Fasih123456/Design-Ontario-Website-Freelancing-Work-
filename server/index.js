@@ -6,6 +6,7 @@ const connection = require('./db');
 const userRoutes = require('./routes/users');
 const authRoutes = require('./routes/auth');
 const mongoose = require('mongoose');
+const contactRoutes = require("./routes/contact");
 
 const Contact = require("./models/contact");
 
@@ -15,28 +16,19 @@ const Contact = require("./models/contact");
 connection()
 
 
-
 app.use(express.json())
 app.use(cors())
 
-app.post('/api/contact', async (req,res)=> {
-    console.log(req.body)
-    try{
-        const contact =     await Contact.create({
-                name: req.body.name,
-                email: req.body.email,
-                password: req.body.password
-            })
-
-        res.send(contact)
-    }catch(err){
-        console.log(err)
-    }
-})
 
 
+
+
+/*
 app.get('/api', (req, res) => {
-    var MongoClient = require('mongodb').MongoClient;
+    const result = Contact.find();
+    console.log(result);
+
+    /*var MongoClient = require('mongodb').MongoClient;
     var url = "mongodb+srv://fasih123:nEFEDA4eBRPth87w@cluster0.5udsnyb.mongodb.net/test";
     
     MongoClient.connect(url, function(err, db) {
@@ -48,10 +40,10 @@ app.get('/api', (req, res) => {
         db.close();
       });
     });
-})
+})*/
 
 
-
+app.use("/api", contactRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes);
 
