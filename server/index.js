@@ -8,9 +8,8 @@ const authRoutes = require('./routes/auth');
 const mongoose = require('mongoose');
 
 const Contact = require("./models/contact");
-const dotenv = require("dotenv")
 
-dotenv.config();
+
 
 
 connection()

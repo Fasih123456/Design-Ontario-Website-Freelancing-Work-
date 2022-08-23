@@ -13,7 +13,7 @@ const Contact = () => {
 
     async function registerUser(event){
         event.preventDefault();
-        fetch('http://localhost:8080/api/contact', {
+        fetch('https://engineers-canada.herokuapp.com/api/contact', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
