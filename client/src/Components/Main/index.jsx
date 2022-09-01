@@ -10,10 +10,10 @@ function Main(){
 
   //This function gets relevent information from API, it fetchs data everytime infomartion in API changes
   useEffect(() => {
-    axios.get("https://engineers-canada.herokuapp.com/api").then((response) => {
+    axios.get("http://localhost:8080/api").then((response) => {
       newContact(response.data)
     });
-  }, ["https://engineers-canada.herokuapp.com/api"]);
+  }, ["http://localhost:8080/api"]);
 
 
 	

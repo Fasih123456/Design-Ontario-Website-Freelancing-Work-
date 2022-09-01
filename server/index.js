@@ -23,12 +23,12 @@ app.use(cors())
 
 
 
-/*
+
 app.get('/api', (req, res) => {
     const result = Contact.find();
     console.log(result);
 
-    /*var MongoClient = require('mongodb').MongoClient;
+    var MongoClient = require('mongodb').MongoClient;
     var url = "mongodb+srv://fasih123:nEFEDA4eBRPth87w@cluster0.5udsnyb.mongodb.net/test";
     
     MongoClient.connect(url, function(err, db) {
@@ -40,10 +40,10 @@ app.get('/api', (req, res) => {
         db.close();
       });
     });
-})*/
+})
 
 
-app.use("/api", contactRoutes);
+//app.use("/api", contactRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes);
 
