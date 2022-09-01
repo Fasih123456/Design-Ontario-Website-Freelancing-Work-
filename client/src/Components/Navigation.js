@@ -53,6 +53,7 @@ class Navigation extends React.Component{
             <Link to="/Work" class='item' id='page2'>Work</Link>
             <Link to="/Contact" class='item' id='page3'>Contact</Link>
             <Link to="/Cost" class='item' id='page4'>Cost Calculation</Link>
+            <Link to="/Login" class='item' id='page5'>Login</Link>
         </React.Fragment>
     );
     }
