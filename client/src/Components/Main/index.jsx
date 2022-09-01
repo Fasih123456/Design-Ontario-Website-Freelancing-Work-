@@ -10,10 +10,10 @@ function Main(){
 
   //This function gets relevent information from API, it fetchs data everytime infomartion in API changes
   useEffect(() => {
-    axios.get("http://localhost:8080/api").then((response) => {
+    axios.get("https://engineers-canada.herokuapp.com/api").then((response) => {
       newContact(response.data)
     });
-  }, ["http://localhost:8080/api"]);
+  }, ["https://engineers-canada.herokuapp.com/api"]);
 
 
 	
@@ -24,7 +24,7 @@ function Main(){
 
 	const getContactInformation = async () => {
 
-		await axios.get('http://localhost:8080/api/contacts')
+		await axios.get('https://engineers-canada.herokuapp.com/api/contacts')
 		.then((response) => {
 			const data = response.data;
 			this.setState({contacts: data})
