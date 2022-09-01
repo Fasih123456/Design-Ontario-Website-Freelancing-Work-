@@ -29,7 +29,8 @@ app.get('/api', (req, res) => {
     console.log(result);
 
     var MongoClient = require('mongodb').MongoClient;
-    var url = "mongodb+srv://fasih123:nEFEDA4eBRPth87w@cluster0.5udsnyb.mongodb.net/test";
+    var url = "mongodb+srv://fasih:fasih123@cluster0.5udsnyb.mongodb.net/?retryWrites=true&w=majority";
+    
     
     MongoClient.connect(url, function(err, db) {
       if (err) throw err;
