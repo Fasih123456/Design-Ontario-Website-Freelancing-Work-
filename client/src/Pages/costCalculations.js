@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 
 import TableExampleStructured from '../Components/TableExampleStructured';
 
-import './css/costCalculations.css';
+
 
 const costCalculations = () =>{
     return (

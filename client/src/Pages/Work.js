@@ -5,8 +5,6 @@ import Slideshow from '../Components/SlideShow'
 import 'react-slideshow-image/dist/styles.css'
 
 
-import './css/App.css';
-import './css/Home.css';
 const Work = () => {    
     return (
         <div>
