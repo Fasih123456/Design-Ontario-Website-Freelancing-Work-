@@ -108,13 +108,9 @@ const Home = () => {
             <div class="row justify-content-center">
               <div class="col-lg-6 text-center">
                 <h2 data-aos="fade-down">
-                  Welcome to <span>UpConstruction</span>
+                  Welcome to <span>Engineers Canada</span>
                 </h2>
-                <p data-aos="fade-up">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <p data-aos="fade-up">Providing Realiable expetise to all our clients</p>
                 <a
                   data-aos="fade-up"
                   data-aos-delay="200"
@@ -135,14 +131,10 @@ const Home = () => {
           data-bs-interval="5000"
         >
           <div class="carousel-item active" style={{ backgroundImage: `url(${Mainimage})` }}></div>
-
-          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-          </a>
-
-          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-          </a>
+          <div
+            class="carousel-item"
+            style={{ backgroundImage: `url(${ConstructionImage1})` }}
+          ></div>
         </div>
       </section>
 
@@ -152,27 +144,19 @@ const Home = () => {
             <div class="row justify-content-between gy-4">
               <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
                 <div class="content">
-                  <h3>Minus hic non reiciendis ea possimus at quia.</h3>
+                  <h3>Find Out how long and how much it will cost</h3>
                   <p>
-                    Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto
-                    ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis.
-                    Eum amet fugiat totam nisi possimus ut delectus dicta.
+                    Send us your contact information and the work you would like to get done and we
+                    will get back to you in less than 48 hours
                   </p>
-                  <p>
-                    Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi
-                    labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi
-                    cupiditate.
-                  </p>
+                  <p></p>
                 </div>
               </div>
 
               <div class="col-lg-5" data-aos="fade">
                 <form action="forms/quote.php" method="post" class="php-email-form">
                   <h3>Get a quote</h3>
-                  <p>
-                    Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum
-                    repellendus enim linead sero park flows.
-                  </p>
+                  <p>We will contact you using your Email or phone</p>
                   <div class="row gy-3">
                     <div class="col-md-12">
                       <input
@@ -225,112 +209,6 @@ const Home = () => {
                     </div>
                   </div>
                 </form>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="constructions" class="constructions">
-          <div class="container" data-aos="fade-up">
-            <div class="section-header">
-              <h2>Constructions</h2>
-              <p>
-                Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id
-                ratione ea sunt quis dolorem dolore earum
-              </p>
-            </div>
-
-            <div class="row gy-4">
-              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="card-item">
-                  <div class="row">
-                    <div class="col-xl-5">
-                      <div
-                        class="card-bg"
-                        style={{ backgroundImage: `url(${ConstructionImage1})` }}
-                      ></div>
-                    </div>
-                    <div class="col-xl-7 d-flex align-items-center">
-                      <div class="card-body">
-                        <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                        <p>
-                          Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                          voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                          veritatis. Officia temporibus illo magnam. Dolor eos et.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-item">
-                  <div class="row">
-                    <div class="col-xl-5">
-                      <div
-                        class="card-bg"
-                        style={{ backgroundImage: `url(${ConstructionImage2})` }}
-                      ></div>
-                    </div>
-                    <div class="col-xl-7 d-flex align-items-center">
-                      <div class="card-body">
-                        <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                        <p>
-                          Sunt deserunt maiores voluptatem autem est rerum perferendis rerum
-                          blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem
-                          architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="card-item">
-                  <div class="row">
-                    <div class="col-xl-5">
-                      <div
-                        class="card-bg"
-                        style={{ backgroundImage: `url(${ConstructionImage3})` }}
-                      ></div>
-                    </div>
-                    <div class="col-xl-7 d-flex align-items-center">
-                      <div class="card-body">
-                        <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                        <p>
-                          Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae
-                          facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at
-                          architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="card-item">
-                  <div class="row">
-                    <div class="col-xl-5">
-                      <div
-                        class="card-bg"
-                        style={{ backgroundImage: `url(${ConstructionImage4})` }}
-                      ></div>
-                    </div>
-                    <div class="col-xl-7 d-flex align-items-center">
-                      <div class="card-body">
-                        <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                        <p>
-                          Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum
-                          eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint
-                          ratione dolores. Aut aliquid ea dolores libero nobis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -444,13 +322,14 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         <section id="projects" class="projects">
           <div class="container" data-aos="fade-up">
             <div class="section-header">
               <h2>Our Projects</h2>
               <p>
-                Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui
-                vel architecto accusamus fugit aut qui distinctio
+                Engineers Canada has worked on over 200 projects for regular people and for
+                busniess, some of our exceptional work is show below.
               </p>
             </div>
 
@@ -464,10 +343,11 @@ const Home = () => {
                 <li data-filter="*" class="filter-active">
                   All
                 </li>
-                <li data-filter=".filter-remodeling">Remodeling</li>
-                <li data-filter=".filter-construction">Construction</li>
-                <li data-filter=".filter-repairs">Repairs</li>
-                <li data-filter=".filter-design">Design</li>
+                <li data-filter=".filter-remodeling">Low Elevation Decks</li>
+                <li data-filter=".filter-construction">Porch Decks</li>
+                <li data-filter=".filter-repairs">High Elevation Decks</li>
+                <li data-filter=".filter-design">Two Story Decks</li>
+                <li data-filter=".filter-design">Pool Decks</li>
               </ul>
 
               <div>
@@ -720,6 +600,90 @@ const Home = () => {
                         <i class="bi bi-link-45deg"></i>
                       </a>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+          <div class="container" style={{ paddingTOp: "10px" }}>
+            <div class="section-title" style={{ paddingBottom: "20px" }}>
+              <h2 style={{ alignContent: "center" }}>Deck Drawings</h2>
+              <p>Get your new deck drawings</p>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="box">
+                  <h3>Small</h3>
+                  <h4>
+                    <sup>$</sup>150<span></span>
+                  </h4>
+                  <ul>
+                    <li>Project Size(sq ft): 107</li>
+                    <li>Number of 2D Drawings: 2</li>
+                    <li>Number Of Revisions: 2</li>
+                    <li>High Level Of Detail</li>
+                    <li>Graphic Echacements</li>
+                    <li>Include Layout Sheets</li>
+                    <li>Delivery Time: 14 Days</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="contact" class="btn-buy">
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                <div class="box featured">
+                  <h3>Medium</h3>
+                  <h4>
+                    <sup>$</sup>200<span> </span>
+                  </h4>
+                  <ul>
+                    <li>Project Size(sq ft): 107</li>
+
+                    <li>Number of 2D Drawings: 4</li>
+                    <li>Number Of Revisions: 2</li>
+                    <li>High Level Of Detail</li>
+                    <li>Graphic Echacements</li>
+                    <li>Include Layout Sheets</li>
+
+                    <li>Delivery Time: 14 Days</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="contact" class="btn-buy">
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                <div class="box">
+                  <h3>Large</h3>
+                  <h4>
+                    <sup>$</sup>300<span> </span>
+                  </h4>
+                  <ul>
+                    <li>Project Size(sq ft): 107</li>
+
+                    <li>Number of 2D Drawings: 6</li>
+                    <li>Number Of Revisions: 4</li>
+                    <li>High Level Of Detail</li>
+                    <li>Graphic Echacements</li>
+                    <li>Include Layout Sheets</li>
+
+                    <li>Delivery Time: 14 Days</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="contact" class="btn-buy">
+                      Buy Now
+                    </a>
                   </div>
                 </div>
               </div>

@@ -19,9 +19,6 @@ const App = () => {
       <Route path="/signup" excat element={<Signup />} />
       <Route path="/login" excat element={<Login />} />
       <Route path="/" excat element={<Home />} />
-      <Route path="/work" excat element={<Work />} />
-      <Route path="/contact" excat element={<Contact />} />
-      <Route path="/cost" excat element={<costCalculations />} />
     </Routes>
   );
 };
